@@ -8,7 +8,7 @@ import { AccountService } from '../_services/account.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  authUser: AuthUser = {username: 'admin', password: '123'}
+  authUser: AuthUser = {username: 'adulieu1', password: 'P@$$w0rd1'}
   constructor(public accountService: AccountService) { }
 
   ngOnInit(): void {
